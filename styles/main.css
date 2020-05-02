@@ -1,0 +1,428 @@
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.background{ 
+    background-color: rgba(155, 155, 156);
+    
+}
+.profile{
+  border-radius: 300%;
+  width: 80%;
+}
+
+<!--Ideas and inspiration from Liz's each week challenge-->
+}
+
+.item {
+    text-align: 20px;
+    border-radius: 5%;
+    height: 440px;
+    width: 440px;
+ }
+
+img {
+    border-style: none;
+    
+    filter: grayscale(0);
+    width: 40%;
+}
+.container:hover{
+    filter: grayscale(1);
+    border-style: none;
+    border-radius: 100%;
+    transition: background-size 0.3s ease;
+    filter: grayscale(1);
+    transition: background-size 0.3s ease;
+}
+
+ body {
+     text-align: center; 
+ }
+
+nav{
+    margin: 20px; 
+ }
+
+ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li{
+    margin-right: 0px;
+    float: left;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+}
+
+li:last-child{
+border-right: none;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(116, 85, 165);
+    font: 25px/1 Gotham, sans-serif;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+
+li a:hover{
+  color: #000;
+}
+
+li.active a{
+    font-weight: bold;
+    color: #333;
+}
+  :root {
+  font-size:75.5%;
+  font-family: Lobster, cursive;
+  }
+
+h1 {   
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+
+}
+.container {
+    margin-top: 20px;
+    width: 96rem;
+    margin: 2rem auto;
+   color:rgba(0, 0, 0);
+  
+  }
+
+
+.gallery-item {
+    max-width: 100%;
+    border-radius: 1px;
+    box-shadow: 0 50px 20px   rgba(68, 6, 77, 0.5);
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;  
+    padding:1px;
+
+  }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(50px, auto);
+}
+   
+   .image {
+    opacity: 1;
+    display: block;
+    width: 80%;
+    height: auto;
+    transition: .1s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery-item:hover .image {
+    filter: grayscale(1);
+}
+
+.gallery-item:hover .middle {
+    opacity: 1;
+}       
+
+.gallery-item:hover {
+    box-shadow: 0 10px 20px  rgba(61, 59, 55, 0.8);
+}
+.text {
+    color: rgb(89, 48, 90);
+    font-size: 2.5em;
+    padding: 32px 64px;
+    font-family: oswald, sans-serif;
+} 
+
+@media (max-width: 300px) {
+    .gallery-item,
+    body {
+         max-width: 500%;
+         grid-column: 10;
+         font-family: oswald, sans-serif;
+         text-align: right; 
+    } 
+    div.container, h1 {
+        text-align: left;
+        margin-left: 15em;
+    }
+
+    div.text {
+        font-size: 1em;
+    }
+
+ 
+
+/*cvcolumn{
+    margin-left:10px;
+    grid-column: 200fr;
+    border-style: none;
+    border-radius: 500%;
+    filter: grayscale(0); 
+    width: 400%;
+    margin-left: 100px;
+    position: relative;
+    padding: 0 55px;
+    flex: content;
+    font-family: 'Quicksand' , sans-serif;
+    font-size: 1.5.0rem;
+    line-height: 0em;
+    text-align: 400px;
+    border-radius: 0%;
+    height: px;
+    width: 0px;  
+    font-weight: 50;
+    font-family: 'Lobster', cursive;
+    color:  none;
+    margin-top: 20rem;
+    margin-bottom:01rem;
+    border: 0;
+    border-top: 1px solid  rgba(209, 100, 100, 0.1);
+    max-width: 0%;
+    grid-column: 0;
+    font-family: Oswald, sans-serif;
+    text-align: centre;
+    background-color: rgb(216, 150, 96);
+  }
+ .pa{
+     color: brown;
+     font-weight: bold;
+ }
+.hr{
+    margin: 5px;
+    border: solid;*/
+}
+ 
+
+.me{
+    color: brown;
+    font-size: 20px;
+ 
+}  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  
+  color: none;
+  background: rgb(90, 198, 231);
+}
+
+.container {
+  
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 100%;
+
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 50px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 50%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+.column1 {
+  float: right;
+  width: 400%;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  margin-left:700px;
+
+}
+.column2 {
+  float: right;
+  width: 400%;
+  color: rgb(0, 0, 0);
+  text-align: right;   
+  margin-left:700px;
+}
+
+
+.container1 {
+  
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 100%;
+  float : left;
+  margin-left :10px;  
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+  width: 120%;
+  height: 10px;
+	margin: 1em auto;
+  float: right;
+  margin-right:700px;
+
+}
+.slider-wrapper {
+	width: 100%;
+	height: 450px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+
